@@ -130,7 +130,7 @@
         padding: 15px 15px;
         margin-top: 35px;
         margin-bottom: 20px;
-        font-size: 0.8rem;
+        font-size: 1.0rem;
         line-height: 1.5rem;
       }
       .headline h3 {
@@ -172,6 +172,7 @@
         flex-wrap: wrap;
         gap: 0.5rem;
         color: #fff;
+        align-items: center;
       }
 
       .program-card {
@@ -182,6 +183,7 @@
         margin-right: 15px;
         width: 100%;
         font-size: .8rem;
+        gap: 10%;
       }
 
       .program-card img {
@@ -194,9 +196,12 @@
       }
 
       .program-card p {
-          width: 70%;
           font-size: 2.5vw;
           line-height: 3.5vw;
+      }
+
+      .program-card-description {
+          width: 40%;
       }
 
       .program-card-description{
@@ -205,11 +210,90 @@
 
       }
 
+      .program-card-headline {
+          display: flex;
+          align-items: center;
+          width: 40%;
+      }
+
     .program-button {
         background-color: #c23f30;
         color: #fff;
-        padding: 10px 15px;
+        padding: 10px 35px;
         align-self: center;
+        margin-bottom: 20px;
     }
+
+    .speakers {
+        padding-right: 24px;
+    }
+
+    .speakers h2 {
+        padding-top: 2rem;
+        font-weight: 400;
+        text-align: center;
+        font-size: 5vw;
+        color: black;
+    }
+
+    .speacker-headline h2 {
+        margin-bottom: 15px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .speacker-headline hr{
+        margin: 0 auto;
+        margin-top: 0.8rem;
+        width: 10%;
+        border: 0.5px solid #c23f30;
+        margin-bottom: 35px;
   }
 
+  .speacker-card {
+      display: flex;
+      padding: 24px;
+  }
+
+  .speaker-image {
+      margin-right: 20px;
+      width: 30%;
+  }
+
+  .speaker-name{
+      font-size: 16px;
+      margin-bottom: 8px;
+  }
+
+  .speacker-profile {
+      color: red;
+      font-size: 14px;
+      font-weight: 600;
+  }
+
+  .speacker-divider {
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #d3d3d3;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    
+    
+  }
+
+  .footer-bottom {
+    height: 150px;
+    width: 100%;
+  }
+
+  .footer-top {
+    background-color: #2E2E2E;
+    width: 100%;
+    height: 150px;
+  }
+
+  .footer-top h2 {
+    
+  }
+}
