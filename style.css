@@ -89,13 +89,21 @@
     .nav-top {
         display: none;
     }
+    .nav-top-open {
+      display: inline;
+    }
+
 
     .mobile-menu-button-link {
         display: inline;
         position: fixed;
         top: 20px;
-        left: 20px;
+        left: 30px;
         color: black;
+      }
+
+      .mobile-menu-button-link img {
+        width: 25px;
       }
 
     .nav-bottom-container {
@@ -155,7 +163,7 @@
         padding-top: 2rem;
         font-weight: 400;
         text-align: center;
-        font-size: 5vw;
+        font-size: 3.5vw;
         color: #fff;
       }
 
@@ -187,12 +195,14 @@
       }
 
       .program-card img {
-        margin-right: 35px;
+        margin-right: 10px;
         padding-left: 15px;
       }
 
       .program-card h3 {
           color: #c23f30 ;
+          align-self: center;
+          justify-self: center;
       }
 
       .program-card p {
@@ -204,16 +214,25 @@
           width: 40%;
       }
 
-      .program-card-description{
-        width: 70%;
-        flex: basic;
-
-      }
-
+      
       .program-card-headline {
           display: flex;
           align-items: center;
-          width: 40%;
+          justify-content: start;
+          width: 35%;
+          justify-content: space-between;
+      }
+
+      .program-card-headline img {
+        margin: 0;
+        width: 35%;
+        justify-self: flex-start;
+      }
+
+      .program-card-headline h3{
+        justify-self: center;
+        width: 30%;
+        font-size: 3vw;
       }
 
     .program-button {
@@ -240,6 +259,7 @@
         margin-bottom: 15px;
         margin-top: 40px;
         text-align: center;
+        font-size: 3.5vw;
     }
     .speacker-headline hr{
         margin: 0 auto;
@@ -251,23 +271,28 @@
 
   .speacker-card {
       display: flex;
-      padding: 24px;
+      padding: 20px 24px;
   }
 
   .speaker-image {
       margin-right: 20px;
-      width: 30%;
+      width: 60%%;
   }
 
-  .speaker-name{
-      font-size: 16px;
+  .speaker-name {
+      font-size: 3vw;
       margin-bottom: 8px;
   }
 
   .speacker-profile {
       color: red;
-      font-size: 14px;
+      font-size: 2vw;
       font-weight: 600;
+  }
+
+  .speacker-title-mejor {
+    font-size: 1.7vw;
+    line-height: 3vw;
   }
 
   .speacker-divider {
@@ -277,10 +302,7 @@
     margin-bottom: 10px;
   }
 
-  .footer {
-    
-    
-  }
+  
 
   .footer-bottom {
     height: 150px;
@@ -294,6 +316,71 @@
   }
 
   .footer-top h2 {
-    
+    margin-bottom: 15px;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+    padding-top: 13px;
+    font-size: 3.5vw;
   }
+
+  .footer-top hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #c23f30;
+    margin-bottom: 25px;
+  }
+
+  .footer-top img {
+    width: 50px;
+  }
+
+  .footer-bottom img {
+    width: 150px;
+
+  }
+
+  .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px 0 24px;
+  }
+
+  .partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-images img {
+    margin-right: 5%;
+  }
+
+ .menu-button-open{
+  margin: 20px 30px;
+  background-image: url("images/close.png");
+  order: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  position: fixed;
+ }
+
+ .visible-mobilemenu {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: start;
+  align-items: flex-start;
+  top: 48px;
+  left: 0;
+  background-color: #fff;
+  overflow-y: hidden;
 }
+  }  
+

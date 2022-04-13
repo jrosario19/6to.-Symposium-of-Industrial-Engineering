@@ -1,4 +1,19 @@
+const mobileMenuButton = document.querySelector('.mobile-menu-button');
+const mobileMenuOptions = document.querySelector('.navbar-bottom-items');
+
 const programDiv = document.querySelector('.speakers');
+
+mobileMenuButton.addEventListener('click', () => {
+  mobileMenuButton.classList.toggle('menu-button-open');
+  mobileMenuOptions.classList.toggle('visible-mobilemenu');
+});
+navBarItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    logo.classList.toggle('logo-invisible');
+    mobileMenuButton.classList.toggle('menu-button-open');
+    mobileMenuOptions.classList.remove('visible-mobilemenu');
+  });
+});
 
 const listOfProgram = [{
     Id: '1',
@@ -44,7 +59,7 @@ const listOfProgram = [{
     <div class="speaker-image">
     <img src="${item.ProfileImg}" alt="speacker-image">
     </div>
-    <div>
+    <div class="speacker-title-mejor">
     <h3 class="speaker-name">${item.Name}</h3>
     <p class="speacker-profile">${item.MejorTitle}</p>
     <hr/ class="speacker-divider">
