@@ -13,6 +13,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1100px;
+  padding: 0 24px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
 }
 
 .nav-top {
@@ -236,6 +242,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .program-button-desktop {
+    display: none;
+  }
+
   .speakers {
     padding-right: 24px;
   }
@@ -279,9 +289,10 @@ body {
   }
 
   .speacker-profile {
-    color: red;
+    color: #c23f30;
     font-size: 2vw;
     font-weight: 600;
+    font-style: italic;
   }
 
   .speacker-title-mejor {
@@ -346,8 +357,8 @@ body {
     margin-right: 5%;
   }
 
-.mobile-menu-button{
-  margin: 20px 30px;
+  .mobile-menu-button {
+    margin: 20px 30px;
     background-image: url("images/menu.png");
     order: 1;
     background-size: contain;
@@ -355,7 +366,7 @@ body {
     width: 25px;
     height: 25px;
     position: fixed;
-}
+  }
 
   .menu-button-open {
     margin: 20px 30px;
@@ -405,7 +416,7 @@ body {
     margin: 15px 0 0 0;
   }
 
-  .navbar-bottom-item a{
+  .navbar-bottom-item a {
     text-align: center;
     align-self: center;
     margin: 0;
@@ -417,11 +428,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
- .mobile-menu-button{
-   display: none;
- }
+  .mobile-menu-button {
+    display: none;
+  }
 
-    .nav-top-open {
+  .nav-top-open {
     display: inline;
   }
 
@@ -510,6 +521,7 @@ body {
     gap: 0.5rem;
     color: #fff;
     align-items: center;
+    justify-content: center;
   }
 
   .program-card {
@@ -523,9 +535,7 @@ body {
     gap: 10%;
     height: 250px;
     padding: 0 10px;
-  }
-
-  .program-card img {
+    min-width: 128px;
   }
 
   .program-card h3 {
@@ -543,7 +553,7 @@ body {
     width: 100%;
   }
 
-  .program-card-description  p {
+  .program-card-description p {
     width: 100%;
     font-size: 15px;
     line-height: 20px;
@@ -573,15 +583,20 @@ body {
   }
 
   .program-button {
-    background-color: #c23f30;
+    display: none;
+  }
+
+  .program-button-desktop {
     color: #fff;
-    padding: 10px 35px;
-    align-self: center;
-    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 35px;
+    margin-top: 35px;
   }
 
   .speakers {
     padding-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .speakers h2 {
@@ -610,11 +625,16 @@ body {
   .speacker-card {
     display: flex;
     padding: 20px 24px;
+    width: 50%;
   }
 
   .speaker-image {
     margin-right: 20px;
-    width: 60%;
+    width: auto;
+  }
+
+  .speaker-image img {
+    width: 150px;
   }
 
   .speaker-name {
@@ -623,14 +643,24 @@ body {
   }
 
   .speacker-profile {
-    color: red;
-    font-size: 2vw;
+    color: #c23f30;
+    font-size: 1.3vw;
     font-weight: 600;
+    font-style: italic;
   }
 
   .speacker-title-mejor {
     font-size: 1.7vw;
     line-height: 3vw;
+  }
+
+  .speacker-title-mejor h3 {
+    font-size: 2vw;
+  }
+
+  .speacker-title-mejor p {
+    font-size: 1vw;
+    line-height: 1.9vw;
   }
 
   .speacker-divider {
@@ -640,10 +670,10 @@ body {
     margin-bottom: 10px;
   }
 
-  .footer-top {
+  .footer-top-container {
     background-color: #2e2e2e;
     width: 100%;
-    height: 150px;
+    height: 200px;
   }
 
   .footer-top h2 {
@@ -690,17 +720,6 @@ body {
     margin-right: 5%;
   }
 
-.mobile-menu-button{
-  margin: 20px 30px;
-    background-image: url("images/menu.png");
-    order: 1;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    position: fixed;
-}
-
   .menu-button-open {
     margin: 20px 30px;
     background-image: url("images/close.png");
@@ -742,12 +761,17 @@ body {
     align-self: center;
   }
 
+  .logo-link img {
+    height: 65px;
+    width: auto;
+  }
+
   .navbar-bottom-item {
     text-align: center;
     margin-left: 35px;
   }
 
-  .navbar-bottom-item a{
+  .navbar-bottom-item a {
     text-align: center;
     align-self: center;
     margin: 0;
