@@ -12,12 +12,11 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1400px;
   padding: 0 24px;
 }
 
 header {
-  position: fixed;
   width: 100%;
 }
 
@@ -278,9 +277,9 @@ header {
     padding: 20px 24px;
   }
 
-  .speaker-image {
+  .speaker-image img {
     margin-right: 20px;
-    width: 60%;
+    width: 20vw;
   }
 
   .speaker-name {
@@ -466,6 +465,7 @@ header {
     color: #c23f30;
     font-size: 2vw;
     text-transform: none;
+    padding-top: 80px;
   }
 
   .headline p {
@@ -480,12 +480,13 @@ header {
   .headline h3 {
     font-family: 'Cocogoose', sans-serif;
     font-weight: normal;
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 4vw;
   }
 
   .headline h4 {
     margin-bottom: 50px;
+    font-size: 1.1vw;
   }
 
   .program-section {
@@ -503,14 +504,14 @@ header {
     padding-top: 2rem;
     font-weight: 400;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2vw;
     color: #fff;
   }
 
   .program-section hr {
     margin: 0 auto;
     margin-top: 0.8rem;
-    width: 10%;
+    width: 4%;
     border: 0.5px solid #c23f30;
     margin-bottom: 35px;
   }
@@ -589,14 +590,18 @@ header {
   .program-button-desktop {
     color: #fff;
     border-bottom: 2px solid #fff;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     margin-top: 35px;
+    font-size: 1.2vw;
+    padding: 0;
   }
 
   .speakers {
     padding-right: 24px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .speakers h2 {
@@ -611,7 +616,7 @@ header {
     margin-bottom: 15px;
     margin-top: 40px;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   .speacker-headline hr {
@@ -634,28 +639,19 @@ header {
   }
 
   .speaker-image img {
-    width: 150px;
+    width: 250px;
   }
 
   .speaker-name {
-    font-size: 3vw;
-    margin-bottom: 8px;
+    font-size: 1.2vw;
+    margin-bottom: 1px;
   }
 
   .speacker-profile {
     color: #c23f30;
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 600;
     font-style: italic;
-  }
-
-  .speacker-title-mejor {
-    font-size: 1.7vw;
-    line-height: 3vw;
-  }
-
-  .speacker-title-mejor h3 {
-    font-size: 2vw;
   }
 
   .speacker-title-mejor p {
@@ -682,7 +678,7 @@ header {
     text-align: center;
     color: #fff;
     padding-top: 13px;
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   .footer-top hr {
@@ -698,7 +694,7 @@ header {
   }
 
   .footer-bottom img {
-    width: 150px;
+    width: 20%;
   }
 
   .footer-bottom {
@@ -710,6 +706,10 @@ header {
     width: 100%;
   }
 
+  .footer-bottom p {
+    font-size: 1.2vw;
+  }
+
   .partner-images {
     display: flex;
     justify-content: center;
@@ -718,6 +718,7 @@ header {
 
   .partner-images img {
     margin-right: 5%;
+    width: 80px;
   }
 
   .menu-button-open {
