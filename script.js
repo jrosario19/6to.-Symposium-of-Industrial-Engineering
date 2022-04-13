@@ -1,6 +1,7 @@
 const mobileMenuButton = document.querySelector('.mobile-menu-button');
 const mobileMenuOptions = document.querySelector('.nav-bottom-container');
 const navBarItems = document.querySelector('.navbar-bottom-items');
+const navBarItemsA = document.querySelectorAll('.navbar-bottom-items');
 const mobileMenuContainer = document.querySelector('.nav-bottom')
 
 const programDiv = document.querySelector('.speakers');
@@ -11,7 +12,7 @@ mobileMenuButton.addEventListener('click', () => {
   navBarItems.classList.toggle('visible-mobilemenu-open');
   mobileMenuContainer.classList.toggle('visible-mobilemenu-opened');
 });
-navBarItems.forEach((item) => {
+navBarItemsA.forEach((item) => {
   item.addEventListener('click', () => {
     mobileMenuButton.classList.toggle('menu-button-open');
     mobileMenuOptions.classList.remove('visible-mobilemenu');
