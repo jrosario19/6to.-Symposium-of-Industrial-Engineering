@@ -1,15 +1,18 @@
 const mobileMenuButton = document.querySelector('.mobile-menu-button');
-const mobileMenuOptions = document.querySelector('.navbar-bottom-items');
+const mobileMenuOptions = document.querySelector('.nav-bottom-container');
+const navBarItems = document.querySelector('.navbar-bottom-items');
+const mobileMenuContainer = document.querySelector('.nav-bottom')
 
 const programDiv = document.querySelector('.speakers');
 
 mobileMenuButton.addEventListener('click', () => {
   mobileMenuButton.classList.toggle('menu-button-open');
   mobileMenuOptions.classList.toggle('visible-mobilemenu');
+  navBarItems.classList.toggle('visible-mobilemenu-open');
+  mobileMenuContainer.classList.toggle('visible-mobilemenu-opened');
 });
 navBarItems.forEach((item) => {
   item.addEventListener('click', () => {
-    logo.classList.toggle('logo-invisible');
     mobileMenuButton.classList.toggle('menu-button-open');
     mobileMenuOptions.classList.remove('visible-mobilemenu');
   });

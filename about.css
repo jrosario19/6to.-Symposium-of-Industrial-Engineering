@@ -1,144 +1,145 @@
-@media screen and (max-width: 767px){
-    .headline-title {
-        text-align: center;
-    }
+@media screen and (max-width: 767px) {
+  .headline-title {
+    text-align: center;
+  }
 
-    .headline p {
-        text-align: center;
-        background-color: #fff;
-    }
+  .headline p {
+    text-align: center;
+    background-color: #fff;
+  }
 
-    .about-contact-description{
-        background-color: transparent !important;
-        margin-bottom: 0 !important;
-        padding: 0 0 !important;
-    }
+  .about-contact-description {
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+    padding: 0 0 !important;
+  }
 
-    .about-contact-email{
-        background-color: transparent !important;
-        margin-top: 0 !important;
-        padding: 0 0 !important;
-        font-weight: 600;
-    }
+  .about-contact-email {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+    padding: 0 0 !important;
+    font-weight: 600;
+  }
 
-    .create-logo {
-        display: flex;
-        flex-direction: column;
-        padding: 0 24px 0 24px;
-    }
+  .create-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0 24px;
+  }
 
-    .create-logo h2 {
-        margin-bottom: 15px;
-        margin-top: 40px;
-        text-align: center;
-    }
+  .create-logo h2 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    text-align: center;
+  }
 
-    .create-logo hr {
-        margin: 0 auto;
-        margin-top: 0.8rem;
-        width: 10%;
-        border: 0.5px solid #c23f30;
-        margin-bottom: 35px;
-    }
+  .create-logo hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #c23f30;
+    margin-bottom: 35px;
+  }
 
-    .create-logo p {
-        text-align: center;
-    }
+  .create-logo p {
+    text-align: center;
+  }
 
-    .create-logo img {
-        width: 250px;
-        align-self: center;
-        margin-top: 35px;
-        border: 1px solid black;
-    }
+  .create-logo img {
+    width: 250px;
+    align-self: center;
+    margin-top: 35px;
+    border: 1px solid black;
+  }
 
-    .past-events h2 {
-        margin-bottom: 15px;
-        margin-top: 40px;
-        text-align: center;
-    }
+  .past-events h2 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    text-align: center;
+  }
 
-    .past-events hr {
-        margin: 0 auto;
-        margin-top: 0.8rem;
-        width: 10%;
-        border: 0.5px solid #c23f30;
-        margin-bottom: 35px;
-    }
-    
-    .past-events p {
-        text-align: center;
-    }
+  .past-events hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #c23f30;
+    margin-bottom: 35px;
+  }
 
-    .past-events {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 24px 0 24px;
-    }
-    .last-event-images{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    .last-event-image1 {
-        display: flex;
-        width: 50%;
-        height: 150px;
-        background-size: cover !important;
-        align-self: center;
-        margin-bottom: 20px;
-        margin-top: 35px;
-        background: linear-gradient( 0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2) ), url(./images/Past-events-1.jpg) no-repeat top center;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .past-events p {
+    text-align: center;
+  }
 
-    .last-event-image2 {
-        display: flex;
-        width: 50%;
-        height: 150px;
-        background-size: cover !important;
-        align-self: center;
-        margin-bottom: 20px;
-        margin-top: 35px;
-        background: linear-gradient( 0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2) ), url(./images/Past-events-2.jfif) no-repeat top center;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px 0 24px;
+  }
 
-    .last-event-image1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .last-event-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-    .last-event-image1 h3 {
-        color: #fff;
-    }
+  .last-event-image1 {
+    display: flex;
+    width: 50%;
+    height: 150px;
+    background-size: cover !important;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-1.jpg) no-repeat top center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .last-event-image1 p {
-        color: #fff;
-        font-size: 0.8rem;
-        padding: 0 15px 0 15px;
-    }
+  .last-event-image2 {
+    display: flex;
+    width: 50%;
+    height: 150px;
+    background-size: cover !important;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-2.jfif) no-repeat top center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .last-event-image2 h3 {
-        color: #fff;
-    }
+  .last-event-image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .last-event-image2 p {
-        color: #fff;
-        font-size: 0.8rem;
-        padding: 0 15px 0 15px;
-    }
+  .last-event-image1 h3 {
+    color: #fff;
+  }
 
-    .speacker-title-mejor {
-        width: 40%;
-    }
-    
+  .last-event-image1 p {
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0 15px 0 15px;
+  }
+
+  .last-event-image2 h3 {
+    color: #fff;
+  }
+
+  .last-event-image2 p {
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0 15px 0 15px;
+  }
+
+  .speacker-title-mejor {
+    width: 40%;
+  }
 }
