@@ -99,7 +99,7 @@
     height: 150px;
     align-self: center;
     margin-top: 35px;
-    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-1.jpg) no-repeat top center;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./Images/Past-events-1.jpg) no-repeat top center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -113,7 +113,7 @@
     align-self: center;
     margin-bottom: 20px;
     margin-top: 10px;
-    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-2.jfif) no-repeat top center;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./Images/Past-events-2.jfif) no-repeat top center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 768px) {
   .headline {
-    background-image: url("./images/about-bg-desktop\ \(1\).png");
+    background-image: url("./Images/about-bg-desktop\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 24px 80px 24px;
@@ -249,7 +249,7 @@
     align-self: center;
     margin-bottom: 20px;
     margin-top: 35px;
-    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-1.jpg) no-repeat top center;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./Images/Past-events-1.jpg) no-repeat top center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -264,7 +264,7 @@
     align-self: center;
     margin-bottom: 20px;
     margin-top: 35px;
-    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./images/Past-events-2.jfif) no-repeat top center;
+    background: linear-gradient(0deg, rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.2)), url(./Images/Past-events-2.jfif) no-repeat top center;
     flex-direction: column;
     justify-content: center;
     align-items: center;

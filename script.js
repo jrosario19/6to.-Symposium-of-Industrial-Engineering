@@ -24,25 +24,25 @@ const listOfProgram = [{
   Name: 'Franco Fernandez',
   MejorTitle: 'Industrial Enginner',
   Profile: 'Graduated from the Autonomous University of Mexico. He has been involved in industrial manufacturing since 2008 and started working on plastic transformation processes in 2011.',
-  ProfileImg: './images/speaker_01.png',
+  ProfileImg: './Images/speaker_01.png',
 }, {
   Id: '2',
   Name: 'Dr.-Ing. Miguel Garzón',
   MejorTitle: 'Doctor Manufacturing Engineering',
   Profile: 'Mechanical Engineer and Master from the Universidad de los Andes in Bogotá, Colombia. In addition, he obtained his doctorate from the WZL, Institute for Machine Tools and Production Engineering at RWTH Aachen University, in Germany.',
-  ProfileImg: './images/speaker_02.png',
+  ProfileImg: './Images/speaker_02.png',
 }, {
   Id: '3',
   Name: 'Ana Rodriguez',
   MejorTitle: 'Manufacturing Engineer',
   Profile: 'Industrial Engineer from the University of Zaragoza, Green Belt in Lean Six Sigma, Master of Science from the Universität Karlsruhe (Germany) and MBA from the ESIC Business & Marketing School.',
-  ProfileImg: './images/speaker_03.png',
+  ProfileImg: './Images/speaker_03.png',
 }, {
   Id: '4',
   Name: 'Alberto Ortega',
   MejorTitle: 'Mechanic Engineer',
   Profile: 'Industrial Engineer from the University of Barcelona, Green Belt in Lean Six Sigma Black Belt, Master of Science from the Universität Karlsruhe (Germany) and MBA from the ESIC Business & Marketing School.',
-  ProfileImg: './images/speaker_04.png',
+  ProfileImg: './Images/speaker_04.png',
 }, {
   Id: '5',
   Name: 'Mark Brown',
@@ -54,7 +54,7 @@ const listOfProgram = [{
   Name: 'Juan Rosario',
   MejorTitle: 'Industrial Engineer',
   Profile: 'Actualmente es responsable de proyectos para la creación de productos y procedimientos de automoción, y de desarrollo de negocio para las industrias del plástico y caucho en el Instituto Tecnológico de Aragón (España).',
-  ProfileImg: './images/speaker_06.png',
+  ProfileImg: './Images/speaker_06.png',
 }];
 
 function cardSpeacker(item) {
