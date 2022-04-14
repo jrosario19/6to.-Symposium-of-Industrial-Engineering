@@ -112,7 +112,7 @@ header {
   }
 
   .headline {
-    background-image: url("images/mobile_intro_bg.png");
+    background-image: url("./images/mobile_intro_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 24px 80px 24px;
@@ -150,7 +150,7 @@ header {
 
   .program-section {
     width: 100vw;
-    background-image: url("images/pattern.png");
+    background-image: url("./images/pattern.png");
     background-repeat: repeat;
     background-color: #272a32;
     background-size: 8%;
@@ -358,7 +358,7 @@ header {
 
   .mobile-menu-button {
     margin: 20px 30px;
-    background-image: url("images/menu.png");
+    background-image: url("./images/menu.png");
     order: 1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -369,7 +369,7 @@ header {
 
   .menu-button-open {
     margin: 20px 30px;
-    background-image: url("images/close.png");
+    background-image: url("./images/close.png");
     order: 1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -448,7 +448,7 @@ header {
   }
 
   .headline-container {
-    background-image: url("images/header-bg-desktop.png");
+    background-image: url("./images/header-bg-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -491,7 +491,7 @@ header {
 
   .program-section {
     width: 100vw;
-    background-image: url("images/pattern.png");
+    background-image: url("./images/pattern.png");
     background-repeat: repeat;
     background-color: #272a32;
     background-size: 8%;
@@ -723,7 +723,7 @@ header {
 
   .menu-button-open {
     margin: 20px 30px;
-    background-image: url("images/close.png");
+    background-image: url("./images/close.png");
     order: 1;
     background-size: contain;
     background-repeat: no-repeat;

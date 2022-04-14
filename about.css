@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 768px) {
   .headline {
-    background-image: url("images/about-bg-desktop\ \(1\).png");
+    background-image: url("./images/about-bg-desktop\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 24px 80px 24px;
