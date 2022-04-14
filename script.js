@@ -48,7 +48,7 @@ const listOfProgram = [{
   Name: 'Mark Brown',
   MejorTitle: 'Electromechanic Engineer',
   Profile: 'A mechanical engineer by training and since 2005 President and CEO of Burger & Brown Engineering, a company that manufactures engineering products related to mold cooling and sensing, and holds 10 patents for its products.',
-  ProfileImg: './images/speaker_05.png',
+  ProfileImg: './Images/speaker_05.png',
 }, {
   Id: '6',
   Name: 'Juan Rosario',
