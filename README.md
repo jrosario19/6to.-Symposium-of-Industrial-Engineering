@@ -8,7 +8,7 @@ This is the first Capstone Project which is the final project for module 1 of Mi
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://jrosario19.github.io/Capstone-Project-1/)
 
 ## Getting Started
 To get started and get a local copy of this project, follow the next intructions:
