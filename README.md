@@ -1,5 +1,5 @@
 # Capstone-Project-1
-This is the first Capstone Project which is the final project for module 1 of Microverse Curriculum. In this project we need to build a dummy website for 6to Simposio de Ingenieria Industrial.
+This is the first Capstone Project which is the final project for module 1 of Microverse Curriculum. In this project we need to build a dummy website for 6to Industrial Engineering Symposium.
 
 ## Built With
 - HTML5
